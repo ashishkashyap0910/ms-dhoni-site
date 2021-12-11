@@ -1,1 +1,95 @@
 
+
+body {
+    background-image: url("://images-eu.ssl-images-amazon.com/images/I/51MC6zq0mES._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg");
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  }
+  
+  /* styling for navigation bar, menu items */
+  ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  /* navigation bar content - individual items - li */
+  ul li {
+    list-style: none;
+  }
+  /* navigation bar content - link text styling inside li - a */
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  /* navigation bar content - link text styling inside
+  li - a with hover selector */
+  ul li a:hover {
+    border-bottom: 3px solid white;
+  }
+  
+  /* styling for banner image and text */
+  .header {
+    padding: 20px;
+    height: 100vh;
+    background: url("https://www.santabanta.com/images/wallpapers/sports/mahendra-singh-dhoni-543038_1024-768.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+  }
+  .header h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  
+  /* styling for content arranged using flex-box */
+  
+  /* first block of text (container, H1, P) */
+  .flex1 {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #16222a, #6a55b8);
+  }
+  
+  .flex1 h1 {
+    font-size: 325%;
+    text-align: center;
+  }
+  .flex1 p {
+    font-weight: 400%;
+    font-family: serif;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .flex {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: linear-gradient(to bottom, #16222a, #4e4376);
+  
+  }
+  
+  /* second block of text (container, H1, P) */
+  
+  /* third block of text 
+  (container to arrange child items vertically - flex-direction: row)
+  
+  */
+  
